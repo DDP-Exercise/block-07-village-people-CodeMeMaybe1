@@ -9,7 +9,7 @@ import Citizen from "./class.citizen.js";
 
 export default class NobleCitizen extends Citizen {
     constructor(name){
-        super(name); //falls danach noch was ergänzen will in klasse Citizen
+        super(name);
         this.rank = 1;
     }
     toString(){
